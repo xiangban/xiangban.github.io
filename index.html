@@ -337,7 +337,7 @@
       
         
           
-            <p>#####在开发过程中，经常能遇到圆角显示某一张图片，介绍几种常见的设置方式</p>
+            <p>在开发过程中，经常能遇到圆角显示某一张图片，介绍几种常见的设置方式</p>
 <ul>
 <li>最简单，但是影响性能<pre>
 UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
@@ -373,7 +373,7 @@ UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(100, 100, 
 
 </avfoundation></li>
 </ul>
-<p>#####第三种最好，内存消耗少，渲染快</p>
+<p>第三种最好，内存消耗少，渲染快</p>
 
           
         
@@ -491,13 +491,13 @@ UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(100, 100, 
       
         
           
-            <p>#####页面间跳转的性能问题大体可以分为以下三种</p>
+            <p>页面间跳转的性能问题大体可以分为以下三种</p>
 <ul>
 <li>A页面跳转到B页面，在B界面需要加载大量的数据，导致页面跳转延迟</li>
 <li>A页面跳转到B页面，在B界面需要加载大量UI元素，导致页面跳转延迟</li>
 <li>A页面跳转到B页面，由于A页面或B页面的GPU使用率过高，所以导致页面跳转延迟</li>
 </ul>
-<p>#####解决办法可以对应的分为三类</p>
+<p>解决办法可以对应的分为三类</p>
 <ul>
 <li>利用多线程，将数据的获取放在子线程执行并返回结果，然后在主线程显示即可。</li>
 <li>在viewDidAppear中加载数据，跳转没延迟，但是显示会等待一段时间。也可以使用GCD。</li>
