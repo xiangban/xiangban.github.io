@@ -71,7 +71,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="iOS," />
 
 
 
@@ -87,15 +87,43 @@
 
 
 
-<meta name="description" content="good good study day day up">
-<meta property="og:type" content="website">
-<meta property="og:title" content="My World">
-<meta property="og:url" content="https://xiangban.github.io/archives/index.html">
+<meta name="description" content="#####页面间跳转的性能问题大体可以分为以下三种
+
+A页面跳转到B页面，在B界面需要加载大量的数据，导致页面跳转延迟
+A页面跳转到B页面，在B界面需要加载大量UI元素，导致页面跳转延迟
+A页面跳转到B页面，由于A页面或B页面的GPU使用率过高，所以导致页面跳转延迟
+
+#####解决办法可以对应的分为三类
+
+利用多线程，将数据的获取放在子线程执行并返回结果，然后在主线程显示即可。
+在viewDid">
+<meta property="og:type" content="article">
+<meta property="og:title" content="页面跳转的性能提升">
+<meta property="og:url" content="https://xiangban.github.io/2017/03/12/页面跳转的性能提升/index.html">
 <meta property="og:site_name" content="My World">
-<meta property="og:description" content="good good study day day up">
+<meta property="og:description" content="#####页面间跳转的性能问题大体可以分为以下三种
+
+A页面跳转到B页面，在B界面需要加载大量的数据，导致页面跳转延迟
+A页面跳转到B页面，在B界面需要加载大量UI元素，导致页面跳转延迟
+A页面跳转到B页面，由于A页面或B页面的GPU使用率过高，所以导致页面跳转延迟
+
+#####解决办法可以对应的分为三类
+
+利用多线程，将数据的获取放在子线程执行并返回结果，然后在主线程显示即可。
+在viewDid">
+<meta property="og:updated_time" content="2017-03-12T07:28:21.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="My World">
-<meta name="twitter:description" content="good good study day day up">
+<meta name="twitter:title" content="页面跳转的性能提升">
+<meta name="twitter:description" content="#####页面间跳转的性能问题大体可以分为以下三种
+
+A页面跳转到B页面，在B界面需要加载大量的数据，导致页面跳转延迟
+A页面跳转到B页面，在B界面需要加载大量UI元素，导致页面跳转延迟
+A页面跳转到B页面，由于A页面或B页面的GPU使用率过高，所以导致页面跳转延迟
+
+#####解决办法可以对应的分为三类
+
+利用多线程，将数据的获取放在子线程执行并返回结果，然后在主线程显示即可。
+在viewDid">
 
 
 
@@ -123,13 +151,13 @@
 
 
 
-  <link rel="canonical" href="https://xiangban.github.io/archives/"/>
+  <link rel="canonical" href="https://xiangban.github.io/2017/03/12/页面跳转的性能提升/"/>
 
 
 
 
 
-  <title> 归档 | My World </title>
+  <title> 页面跳转的性能提升 | My World </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -154,7 +182,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  page-archive  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -248,177 +276,165 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
-
-    <span class="archive-page-counter">
-      
-      
-      
-        
-      
-      嗯..! 目前共计 4 篇日志。 继续努力。
-    </span>
-
+  <div id="posts" class="posts-expand">
     
-
-      
-      
-      
-
-      
-        
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2017">2017</h2>
-        </div>
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2017/03/12/圆角图片/" itemprop="url">
-              
-                <span itemprop="name">圆角图片</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-03-12T15:49:21+08:00"
-              content="2017-03-12" >
-          03-12
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2017/03/12/页面跳转的性能提升/" itemprop="url">
-              
-                <span itemprop="name">页面跳转的性能提升</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-03-12T11:54:59+08:00"
-              content="2017-03-12" >
-          03-12
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2017/03/12/检查iOS项目中是否使用了IDFA/" itemprop="url">
-              
-                <span itemprop="name">检查iOS项目中是否使用了IDFA</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-03-12T10:52:11+08:00"
-              content="2017-03-12" >
-          03-12
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-      
-      
-      
-
-      
-      
-
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2017/03/10/初记/" itemprop="url">
-              
-                <span itemprop="name">初记</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-03-10T19:05:14+08:00"
-              content="2017-03-10" >
-          03-10
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-    
-
-  </section>
 
   
 
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://xiangban.github.io/2017/03/12/页面跳转的性能提升/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="rqp">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://avatars2.githubusercontent.com/u/9032208?v=3&s=460">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="My World">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                页面跳转的性能提升
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-12T11:54:59+08:00">
+                2017-03-12
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>#####页面间跳转的性能问题大体可以分为以下三种</p>
+<ul>
+<li>A页面跳转到B页面，在B界面需要加载大量的数据，导致页面跳转延迟</li>
+<li>A页面跳转到B页面，在B界面需要加载大量UI元素，导致页面跳转延迟</li>
+<li>A页面跳转到B页面，由于A页面或B页面的GPU使用率过高，所以导致页面跳转延迟</li>
+</ul>
+<p>#####解决办法可以对应的分为三类</p>
+<ul>
+<li>利用多线程，将数据的获取放在子线程执行并返回结果，然后在主线程显示即可。</li>
+<li>在viewDidAppear中加载数据，跳转没延迟，但是显示会等待一段时间。也可以使用GCD。</li>
+<li>有种偷懒的方法就是，对视图控制器的图层做一次截图，把截图的结果设置为新图层的寄宿图</li>
+</ul>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/iOS/" rel="tag"># iOS</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/03/12/检查iOS项目中是否使用了IDFA/" rel="next" title="检查iOS项目中是否使用了IDFA">
+                <i class="fa fa-chevron-left"></i> 检查iOS项目中是否使用了IDFA
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/03/12/圆角图片/" rel="prev" title="圆角图片">
+                圆角图片 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
           
           </div>
@@ -426,6 +442,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -604,11 +624,9 @@
   
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
 
 
   
